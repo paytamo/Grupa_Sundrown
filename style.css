@@ -14,7 +14,7 @@
             margin: 15px;
             padding: 10px 20px;
             background-color: #333;
-            color: white;
+            color: #F5D31B;
             text-decoration: none;
             border-radius: 8px;
         }
@@ -23,10 +23,16 @@
             background-color: #555;
         }
 
-        
+
        .img {
             width: 300px;
             height: 300px;
             object-fit: cover;
             border-radius: 10px;
+        }
+        .logo {
+            color:#F5D31B;
+             font-size: 24px;
+            font-weight: bold;
+             margin-bottom: 15px;
         }
