@@ -3,13 +3,19 @@
             text-align: center;
             background-color: #000000;
             color: #F5D31B;
+            background-image: url("images/bg.png");
+            background-size: auto;        
+            background-position: center;  
+            background-repeat: no-repeat;  
+            background-attachment: fixed;  
         }
+        body 
 
         header {
             padding: 40px;
         }
 
-        nav a {
+        nav a, .social a {
             display: inline-block;
             margin: 15px;
             padding: 10px 20px;
@@ -19,7 +25,7 @@
             border-radius: 8px;
         }
 
-        nav a:hover {
+        nav a:hover, .social a:hover {
             background-color: #555;
         }
 
